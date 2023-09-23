@@ -1,0 +1,103 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* Common styles for navigation links */
+#nav {
+    background-color: #f0f0f0;
+    text-align: center;
+    padding: 10px;
+}
+
+#nav a {
+    text-decoration: none;
+    color: black;
+    margin-right: 20px;
+}
+
+/* Header */
+#Home {
+    text-align: center;
+    padding: 20px;
+}
+
+#img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: orangered;
+    margin: 0 auto;
+}
+
+/* About Me */
+#AboutMe {
+    text-align: center;
+    padding: 20px;
+}
+
+/* Awards */
+#Awards {
+    text-align: center;
+    padding: 20px;
+}
+
+/* Gallery */
+#Gallery {
+    text-align: center;
+    padding: 20px;
+}
+
+/* Contact */
+#contact {
+    text-align: center;
+    padding: 20px;
+}
+
+/* Footer */
+#Footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Media Queries */
+@media screen and (max-width: 999px) {
+    #nav {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    #nav a {
+        margin: 10px 0;
+        margin-right: 0;
+    }
+    
+    #img {
+        width: 100px;
+        height: 100px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #nav a {
+        margin: 5px 0;
+        font-size: 14px;
+    }
+
+    #img {
+        width: 80px;
+        height: 80px;
+    }
+}
